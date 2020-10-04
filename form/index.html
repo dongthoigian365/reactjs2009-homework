@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="col-1">
+            <div class="row-1">
+                <span class="dot dot-1">
+                    <img src="/images/foot_dog.png" alt="foot-dog" height="20px" width="20px">
+                </span>            
+                <p>PUPASSURE</p>
+            </div>           
+            <img src="/images/dog.png" alt="dog" height="230px" width="230px">
+        </div>
+        <div class="col-2">
+            <form action="" method="get">
+                <div class="row-1">
+                    <p>Yay, puppies! Ensure your pup gets the best care!</p>
+                </div>
+                <div class="row-2">
+                    <div class="row-2 col-1">
+                        <p>Name</p>
+                        <input type="text" name="name" id="" placeholder="Pet's name">
+                    </div>
+                    <div class="row-2 col-2">
+                        <span class="dot dot-2">
+                            <label for="file-input">
+                                <img src="/images/camera.png" alt="" height="20px" width="20px">
+                            </label>
+                            <input type="file" name="photo" id="file-input" accept="image/*">
+                        </span>
+                        <p>Upload a photo</p>
+                    </div>
+                </div>
+                <div class="row-3">
+                    <div class="row-3 col-1">
+                        <p>Breed</p>
+                        <input type="text" name="breed" id="" placeholder="Pet's breed">
+                    </div>
+                    <div class="row-3 col-2">
+                        <p>Birthday</p>
+                        <input type="date" name="birthday" id="">
+                    </div>
+                </div>
+                <div class="row-4">
+                    <div class="row-4 col-1">
+                        <p>Gender</p>
+                        <div class="radio">
+                            <label for="female"><p>Female</p></label>
+                            <input type="radio" name="gender" id="female" value="female" checked>
+                            <label for="male"><p>Male</p></label>
+                            <input type="radio" name="gender" id="male" value="male">
+                        </div>                       
+                    </div>
+                    <div class="row-4 col-2">
+                        <p>Spayed or Neutered</p>
+                        <div class="radio">
+                            <label for="spayed"><p>Spayed</p></label>
+                            <input type="radio" name="status" id="spayed" value="spayed" checked>
+                            <label for="neutered"><p>Neutered</p></label>
+                            <input type="radio" name="status" id="neutered" value="neutered">
+                        </div>
+                    </div>
+                </div>
+                <div class="row-5">
+                    <p>Weight</p>
+                    <div class="radio">
+                        <label for="0-25lbs"><p>0-25 lbs</p></label>
+                        <input type="radio" name="weight" id="0-25lbs" value="0-25lbs" checked>
+                        <label for="25-50lbs"><p>25-50 lbs</p></label>
+                        <input type="radio" name="weight" id="25-50lbs" value="25-50lbs">
+                        <label for="50-100lbs"><p>50-100 lbs</p></label>
+                        <input type="radio" name="weight" id="50-100lbs" value="50-100lbs">
+                        <label for="100+lbs"><p>100+ lbs</p></label>
+                        <input type="radio" name="weight" id="100+lbs" value="100+lbs">
+                    </div>
+                </div>
+                <div class="row-6">
+                    <input type="button" value="Back" class="button">
+                    <input type="submit" value="Next" class="button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
